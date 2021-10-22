@@ -1,0 +1,39 @@
+.blackBar{
+    background-color: black;
+    height: 60px;
+    color: white;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:20px;
+    margin-right:20px;
+}
+.row .numSize{
+    font-size: 19px;
+}
+.row .name{
+    font-size: 50px;
+}
+.row .icons{
+    display: flex;
+
+}
+.row .icons .iconBorder{
+    width: 90px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20px ;
+    padding-right:20px ;
+
+}
