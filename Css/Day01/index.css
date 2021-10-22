@@ -39,10 +39,11 @@ body{
 .lbox{
     display:flex;
     justify-content: space-evenly;
+    flex-direction: column;
 }
 .sbox{
     width:100px;
     height:100px;
     background-color: antiquewhite;
-    margin-left: 10px;
+    margin: 10px;
 }
