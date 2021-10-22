@@ -1,7 +1,7 @@
 body{
     background-color:#163a24;
 }
-.items{
+/* .items{
     width:100px;
     height:100px;
     background-color: blue;
@@ -14,7 +14,7 @@ body{
 }
 .container{
     display:flex;
-    /* flex-direction: column; */
+ 
     justify-content:space-between;
     margin-left:100px;
     margin-right:100px;
@@ -34,7 +34,7 @@ body{
     padding-bottom:15px;
     border-radius: 50px;
     color:white;
-}
+} */
 
 .lbox{
     display:flex;
@@ -46,4 +46,33 @@ body{
     height:100px;
     background-color: antiquewhite;
     margin: 10px;
+}
+.info{
+    display:flex;
+    color:white;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+}
+.info .infoItems{
+    margin-left: 20px;
+}
+.info .btnType{
+    width:100px;
+    height: 20px;
+    background-color:#198C36;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+}
+.items{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    /* background-color: cadetblue; */
+    height: 90px;
+    align-items: center;
+    font-family: sans-serif;
 }
