@@ -35,3 +35,14 @@ body{
     border-radius: 50px;
     color:white;
 }
+
+.lbox{
+    display:flex;
+    justify-content: space-evenly;
+}
+.sbox{
+    width:100px;
+    height:100px;
+    background-color: antiquewhite;
+    margin-left: 10px;
+}
